@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginpage {
+
+    /* size */
+    width: 50%;
+    height: 70%;
+
+    /* color */
+    background-color: rgba(121, 220, 233, 0.479);
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.loginpage:hover{
+    background-color: rgba(121, 233, 194, 0.479);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(aesthetic-landscape-background-desktop-wallpaper.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.loginD {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.check {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 20px;
+    border:none;
+    border-radius: 10px;
+    font-size: 15px;
+
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #53f6cbca;
+    
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background-color: white;
+}
+
+
+input[type="checkbox"] {
+    cursor: pointer;
+
+}
+
+label {
+    cursor: pointer;
+}
+
+p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    background: rgb(165, 234, 235);
+}
+
+button:hover {
+    background: rgb(157, 231, 244);
+
+}
