@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pexels-instawally-176851.jpg);
+    background-size: cover;
+}
+
+.container {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.welcome {
+    background-image: url(cosmic-landscape-starry-sky-desktop-wallpaper.jpg);
+    width: 40%;
+    height: 50%;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(0, 187, 255);
+}
+
+.login {
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
+    width: 40%;
+    height: 50%;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.type {
+
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.check {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.new {
+    display: flex;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+
+
+/* login */
+.logh1 {
+    font-size: 60px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.tag {
+    cursor: pointer;
+}
+
+button {
+    width: 50%;
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #66b2b2;
+}
